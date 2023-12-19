@@ -250,7 +250,7 @@ form .login-link p a{
 </head>
 <body style="background-color: #FFFFFF;">
 
-    <%-- <%@ include file="header.jsp"%> --%>
+ <%@ include file="header.jsp"%> 
 
     <%
         String message = request.getParameter("message");
