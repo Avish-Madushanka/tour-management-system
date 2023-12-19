@@ -3,19 +3,20 @@ package com.shop.service.impl;
 import java.sql.Connection;
 
 
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.shop.beans.UserBean;
 import com.shop.constants.IUserConstants;
-import com.shop.service.UserService;
+import com.shop.services.UserService;
 import com.shop.utility.DBUtil;
-import com.shop.utility.MailMessage;
+/*import com.shop.utility.MailMessage;*/
 
 public class UserServiceImpl implements UserService {
 
-	@Override
+  @Override 
 	public String registerUser(String userName, Long mobileNo, String emailId, String address, int pinCode,
 			String password) {
 
@@ -26,7 +27,7 @@ public class UserServiceImpl implements UserService {
 		return status;
 	}
 
-	@Override
+	 @Override 
 	public String registerUser(UserBean user) {
 
 		String status = "User Registration Failed!";
@@ -58,7 +59,10 @@ public class UserServiceImpl implements UserService {
 
 			if (k > 0) {
 				status = "User Registered Successfully!";
-				MailMessage.registrationSuccess(user.getEmail(), user.getName().split(" ")[0]);
+				/*
+				 * MailMessage.registrationSuccess(user.getEmail(),
+				 * user.getName().split(" ")[0]);
+				 */
 			}
 
 		} catch (SQLException e) {
@@ -72,7 +76,7 @@ public class UserServiceImpl implements UserService {
 		return status;
 	}
 
-	@Override
+	 @Override 
 	public boolean isRegistered(String emailId) {
 		boolean flag = false;
 
