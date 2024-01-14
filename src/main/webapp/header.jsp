@@ -365,7 +365,7 @@
     </div>
     <div class="hamburger-menu-links">
         <a href="index.jsp">Home</a>
-        <a href="AllProducts.jsp">All Products</a>
+        <a href="AllProducts.jsp">All Services</a>
         <a href="teams.jsp">About Us</a>
         <a href="feedback.jsp">Contact Us</a>
         <div class="dropdown">
@@ -398,7 +398,7 @@
         
         <div class="navlinks23">
         <a href="index.jsp" class="nav-link2">Home</a>
-        <a href="AllProducts.jsp" class="nav-link2">All Products</a>
+        <a href="AllProducts.jsp" class="nav-link2">All Services</a>
         <a href="orderDetails.jsp" class="nav-link2">Track Orders</a>
         <a href="feedback.jsp" class="nav-link2">Contact Us</a>
         <a href="teams.jsp" class="nav-link2">About Us</a>
@@ -421,7 +421,7 @@
     </div>
     <div class="hamburger-menu-links">
         <a href="index.jsp">Home</a>
-        <a href="AllProducts.jsp">All Products</a>
+        <a href="AllProducts.jsp">All Services</a>
          <a href="orderDetails.jsp">Track Orders</a>
         <a href="teams.jsp">About Us</a>
          <a href="userProfile.jsp">Profile</a>
@@ -467,7 +467,7 @@
         
         <div class="navlinks23">
         <a href="index.jsp" class="nav-link2">Home</a>
-        <a href="AllProducts.jsp" class="nav-link2">All Products</a>
+        <a href="AllProducts.jsp" class="nav-link2">All Services</a>
         <a href="orderDetails.jsp" class="nav-link2">Track Orders</a>
         <a href="userProfile.jsp" class="nav-link2">Profile</a>
         <a href="feedback.jsp" class="nav-link2">Contact Us</a>
@@ -489,8 +489,8 @@
 		    </div>
 		    <div class="hamburger-menu-links">
 		        <a href="index.jsp">Home</a>
-		        <a href="AllProducts.jsp">All Products</a>
-		         <a href="addProduct.jsp">Add Product</a>
+		        <a href="AllProducts.jsp">All Services</a>
+		         <a href="addProduct.jsp">Add Service</a>
 		        <a href="adminViewProduct.jsp">Update Products</a>
 		        <a href="adminStock.jsp">Stock</a>
 		        <a href="unshippedItems.jsp">Orders</a>
@@ -523,7 +523,7 @@
     </div>
 		        <div class="navlinks23">
 		        <a href="index.jsp" class="nav-link2">Home</a>
-		        <a href="AllProducts.jsp" class="nav-link2">All Products</a>
+		        <a href="AllProducts.jsp" class="nav-link2">All Services</a>
 		        <a href="orderDetails.jsp" class="nav-link2">Track Orders</a>
 		        <a href="shippedItems.jsp" class="nav-link2">Shipped</a>
 		        <a href="unshippedItems.jsp" class="nav-link2">Unshipped</a>
