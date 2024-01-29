@@ -40,7 +40,7 @@ body {
     margin-top: 40px;
     margin-bottom: 30px;
     margin-left: 22%;
-    background: url('images/2.jpg'); /* Add the path to your background image */
+    background: url('image/login1.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the background image covers the container */
     background-repeat: no-repeat; /* Prevent background image repetition */
     background-position: center; /* Center the background image */
