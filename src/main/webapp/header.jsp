@@ -75,8 +75,8 @@
         }
 
         .logo {
-            width: 200px;
-            height: 45px;
+            width:250px;
+            height: 70px;
         }
 
         .search-bar-container {
@@ -377,7 +377,7 @@
 	<div class="top-navbar">
 
         <div>
-            <img src="images/logo.png" alt="Logo" class="logo">
+            <img src="image/logo2.png"  alt="Logo" class="logo">
         </div>
 
 </form>
