@@ -70,7 +70,7 @@
             <div class="relative">
               <div class="relative">
               <img
-                src="/storage/avatars/njkIbPhyZCftc4g9XbMWwVsa7aGVPajYLRXhEeoo.jpg"
+                src="image/home1.jpg"
                 alt="aji"
                 class="object-cover w-full h-60 mx-auto rounded-t-2xl"
               />
@@ -100,7 +100,7 @@
             <div class="">
                 <div class="relative">
               <img
-                src="https://scontent.fccj2-2.fna.fbcdn.net/v/t39.30808-6/293672501_5357602044279252_6369958249008578770_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=bdzc8jxe0kYAX83O5hJ&_nc_ht=scontent.fccj2-2.fna&oh=00_AT8kbjMW_DqEcrXGcCTesn5pdVLgQReb2NlaF3OduMzl1Q&oe=632F3EE9"
+              src="image/home2.jpg"
                 alt="aji"
                 class="object-cover w-full mx-auto rounded-t-2xl h-60"
               />
@@ -130,8 +130,8 @@
             <div class="">
                <div class="relative">
               <img
-                src="https://scontent.fccj2-2.fna.fbcdn.net/v/t31.18172-8/11262421_868445743194927_5746052500134236265_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=84hLHR-HqyMAX9c9k1y&_nc_ht=scontent.fccj2-2.fna&oh=00_AT_lIRJ3LcWYTagkUdWdrG_eb-iwHbQS_pPNAv7JDcg2Eg&oe=634DB7A3"
-                alt="aji"
+              src="image/home3.jpg"
+               alt="aji"
                 class="object-cover w-full mx-auto rounded-t-2xl h-60"
               />
               <div class="rounded-t-2xl absolute bg-gradient-to-t from-gray-800 opacity-75 inset-0 z-0"></div>
