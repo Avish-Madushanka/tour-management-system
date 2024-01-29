@@ -26,7 +26,7 @@
     background-color:rgb(14 211 207);
   }
 </style>
-<div class="bg-no-repeat bg-cover bg-center relative" style="background-image: url('image/home.jpg')">
+<div class="bg-no-repeat bg-cover bg-center relative" style="height:640px; background-image: url('image/home.jpg');">
 
  <div class="absolute bg-gradient-to-r from-gray-900 to-gray-900 opacity-75 inset-0 z-0"></div>
 <div>

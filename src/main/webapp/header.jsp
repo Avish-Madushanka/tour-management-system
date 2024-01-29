@@ -66,7 +66,7 @@
         }
 
         .top-navbar a:hover {
-          color: #04A702; 
+          color: white; 
           text-decoration: none;
         }
         .cart-total {
@@ -116,7 +116,7 @@
         
         
         .second-navbar2 {
-            background-color: #007a99;
+            background-color: #040720;
             padding: 10px 60px;
             display: flex;
             z-index: 2;
