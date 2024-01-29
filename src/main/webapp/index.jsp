@@ -81,14 +81,11 @@
              <div class="relative m-5 p-5">
               <svg class="absolute left-0 w-6  fill-indigo-500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"/></svg>
              <p class="text-gray-100 text-xl px-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              assumenda officiis sit amet itaque eveniet accusantium corporis
-              tempora.
+              "Dive into serenity with Fish Therapy. Refresh your senses as our therapeutic fish work their magic. Pure bliss awaits."
              </p>
               <svg class="absolute right-0  w-6 fill-indigo-500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg>
              <div class="text-sm mt-5 mx-5">
-                <p class="font-medium text-white">Ajimon</p>
-                <p class="mt-1 text-gray-300">CEO Of Marketing </p>
+                <p class="mt-1 text-gray-300">Check Out... </p>
               </div>
             </div>
             
@@ -111,14 +108,11 @@
             <div class="relative relative m-5 p-5">
               <svg class="absolute left-0  w-6  fill-indigo-500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"/></svg>
 <p class="text-gray-100 text-xl px-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              assumenda officiis sit amet itaque eveniet accusantium corporis
-              tempora.
+              "Savor the moment with BBQ fish. Fresh, flavorful, and fireside perfection."
 </p>
               <svg class="absolute right-0 w-6 fill-indigo-500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg>
             <div class="text-sm mt-5 mx-5">
-                <p class="font-medium text-white">John Doe</p>
-                <p class="mt-1 text-gray-300">Marketing Manager  </p>
+                <p class="mt-1 text-gray-300">Check Out... </p>
               </div>
             </div>
              
@@ -140,15 +134,11 @@
 
             <div class="relative m-5 p-5">
               <svg class="absolute left-0 w-6  fill-indigo-500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"/></svg>
-<p class="text-gray-100 text-xl px-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              assumenda officiis sit amet itaque eveniet accusantium corporis
-              tempora.
+<p class="text-gray-100 text-xl px-5">"Elevate your stay with unparalleled comfort and style. Welcome to your home away from home."
 </p>
               <svg class="absolute right-0 w-6 fill-indigo-500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg>
             <div class="text-sm mt-5 mx-5">
-                <p class="font-medium text-white">Ajimon</p>
-                <p class="mt-1 text-gray-300">CEO Of Marketing </p>
+                <p class="mt-1 text-gray-300">Check Out... </p>
               </div>
             </div>
             
