@@ -7,6 +7,7 @@
  <%@ include file="header.jsp"%> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/your/tailwind.css"> <!-- Replace with the actual path to your Tailwind CSS file -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>foods</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap">
@@ -18,13 +19,11 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/Navbar.css">
-	<center>
 	<style>
     <!-- Vendor Script -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <style>
         body {
             margin: 0;
             padding: 0;
@@ -44,7 +43,8 @@
             width: 900px;
             height: 600px;
             background: #fff;
-            margin: 20px;
+            
+            margin-right: 500px;
         }
 
         .container .imgBx {
@@ -75,6 +75,7 @@
             transform: rotate(-30deg);
             left: -50px;
             transition: .9s linear;
+            
         }
 
         .container .details {
@@ -181,6 +182,9 @@
                 left: initial;
                 max-width: 100%;
                 transform: rotate(0deg);
+                width: 100%;
+                max-width: 100%;
+                
             }
 
             .details {
@@ -193,7 +197,36 @@
                 margin-left: 0;
                 max-width: 100%;
             }
+            
         }
+        @media (max-width: 768px) {
+    /* Add or modify styles for smaller screens */
+    .container {
+        /* Example: Adjust width or margins */
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .container .imgBx {
+        /* Example: Adjust styling for image container */
+        width: 100%;
+    }
+
+    .container .details {
+        /* Example: Adjust styling for details container */
+        width: 100%;
+        padding: 20px;
+    }
+    .container .imgBx img {
+    width: 100%;
+    max-width: 100%;
+    /* Add other styling as needed */
+}
+    
+
+    /* Add more responsive styles as needed */
+}
+        
 
         footer {
             position: fixed;
@@ -207,11 +240,12 @@
             font-size: 12px;
         }
     </style>
+    
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="container" align="center">
         <div class="imgBx">
             <img src="image/curry.png?raw=true" alt="crab">
         </div>
@@ -230,6 +264,13 @@
         </div>
     </div>
 
+
+    <br> <br> <br> <br> <br>
+
+<!-- products -->
+
+</body>
+
     <!-- Footer -->
     <footer>
        
@@ -247,9 +288,9 @@
             $(".container .imgBx").css("background", $(this).attr("data-color-sec"));
             $(".container .details button").css("background", $(this).attr("data-color-sec"));
             $(".imgBx img").attr('src', $(this).attr("data-pic"));
-        });
+        });+
     </script>
-</center>
+
 </body>
 
 </html>

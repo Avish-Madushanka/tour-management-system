@@ -35,7 +35,9 @@
             padding: 0;
             font-family: 'Amaranth', sans-serif;
             display: flex;
-    flex-direction: column;
+            flex-direction: column;
+            overflow-x: hidden;
+
         }
         .mainnav
 {
