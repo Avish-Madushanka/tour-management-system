@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,9 +8,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Product Card UI Design</title>
+    <title>foods</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap">
-
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/reg.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/Navbar.css">
+	<center>
+	<style>
     <!-- Vendor Script -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -48,7 +59,7 @@
         }
 
         .container .imgBx:before {
-            content: 'Nike';
+            content: 'Indian';
             position: absolute;
             top: 0px;
             left: 24px;
@@ -81,7 +92,7 @@
             padding: 0;
             font-size: 2.4em;
             line-height: 1em;
-            color: #444;
+            color: #FF335E;
         }
 
         .container .details h2 span {
@@ -120,6 +131,7 @@
             font-weight: 600;
             border-radius: 40px;
             float: right;
+           
         }
 
         .product-colors span {
@@ -138,15 +150,7 @@
             background: #000;
         }
 
-        .red {
-            background: #D5212E;
-        }
-
-        .orange {
-            background: #F18557;
-        }
-
-        .product-colors .active:after {
+              .product-colors .active:after {
             content: "";
             width: 36px;
             height: 36px;
@@ -209,26 +213,19 @@
 
     <div class="container">
         <div class="imgBx">
-            <img src="image/curry.png?raw=true" alt="Nike Jordan Proto-Lyte Image">
+            <img src="image/curry.png?raw=true" alt="crab">
         </div>
         <div class="details">
             <div class="content">
-                <h2>Indian Crab Curry <br>
+                <h2><b>Indian Crab Curry </b><br>
                     <span>Running Collection</span>
                 </h2>
                 <p>
                     "Savoring the rich flavors of Indian Crab Curry - a symphony of spices and succulent crab meat that transports your taste buds to coastal bliss"
                 </p>
-                <p class="product-colors">Available Colors:
-                    <span class="black active" data-color-primary="#000" data-color-sec="#212121"
-                        data-pic="image/curry.png?raw=true"></span>
-                    <span class="red" data-color-primary="#7E021C" data-color-sec="#bd072d"
-                        data-pic="https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto_red_black.png?raw=true"></span>
-                    <span class="orange" data-color-primary="#CE5B39" data-color-sec="#F18557"
-                        data-pic="https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto_orange_black.png?raw=true"></span>
-                </p>
-                <h3>Rs. 4,600</h3>
-                <button>Buy Now</button>
+                
+                <h3>Rs. 4,600</h3> 
+                <br><br><button>Taste Now</button>
             </div>
         </div>
     </div>
@@ -252,7 +249,7 @@
             $(".imgBx img").attr('src', $(this).attr("data-pic"));
         });
     </script>
-
+</center>
 </body>
 
 </html>
