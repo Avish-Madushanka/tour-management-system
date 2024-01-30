@@ -5,6 +5,7 @@
 
 <head>
  <%@ include file="header.jsp"%> 
+ <br><br>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="path/to/your/tailwind.css"> <!-- Replace with the actual path to your Tailwind CSS file -->
@@ -199,34 +200,155 @@
             }
             
         }
-        @media (max-width: 768px) {
-    /* Add or modify styles for smaller screens */
-    .container {
-        /* Example: Adjust width or margins */
-        width: 100%;
-        margin-right: 0;
-    }
+             @media (max-width: 768px) {
+              /* Add or modify styles for smaller screens */
+           .container {
+              /* Example: Adjust width or margins */
+               width: 100%;
+               margin-right: 0;
+         }
 
-    .container .imgBx {
-        /* Example: Adjust styling for image container */
-        width: 100%;
-    }
-
-    .container .details {
-        /* Example: Adjust styling for details container */
-        width: 100%;
-        padding: 20px;
-    }
-    .container .imgBx img {
-    width: 100%;
-    max-width: 100%;
-    /* Add other styling as needed */
-}
-    
-
-    /* Add more responsive styles as needed */
-}
+           .container .imgBx {
+              /* Example: Adjust styling for image container */
+              width: 100%;
+         }
+ 
+          .container .details {
+             /* Example: Adjust styling for details container */
+              width: 100%;
+              padding: 20px;
+         }
+          .container .imgBx img {
+              width: 100%;
+              max-width: 100%;
+             /* Add other styling as needed */
+           }
+       }
         
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+*
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+.product-card {
+     width: 380px;
+    float: left; /* Float left to display cards next to each other */
+    margin-right: 20px; /* Add some margin for spacing between cards */
+    box-shadow: 0 2px 7px #dfdfdf;
+    background: #fafafa;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 7px #dfdfdf;
+    background: #fafafa;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #f0f0f0;
+    
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: #fbb72c;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #fbb72c;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #fbb72c;
+}
+
+.product-card:nth-child(odd) {
+    margin-right: 20px; }
+    
+.product-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    justify-content: space-between; /* Distribute items evenly with space between them */
+}
 
         footer {
             position: fixed;
@@ -268,7 +390,39 @@
     <br> <br> <br> <br> <br>
 
 <!-- products -->
-
+	<div class="product-card">
+		<div class="product-tumb">
+			<img src="https://i.imgur.com/xdbHo4E.png" alt="">
+		</div>
+		<div class="product-details">
+			<span class="product-catagory">Women,bag</span>
+			<h4><a href="">Women leather bag</a></h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+			<div class="product-bottom-details">
+				<div class="product-price"><small>$96.00</small>$230.99</div>
+				<div class="product-links">
+					<a href=""><i class="fa fa-heart"></i></a>
+					<a href=""><i class="fa fa-shopping-cart"></i></a>
+				</div>
+			</div>
+		</div>
+	
+		<div class="product-tumb">
+			<img src="https://i.imgur.com/xdbHo4E.png" alt="">
+		</div>
+		<div class="product-details">
+			<span class="product-catagory">Women,bag</span>
+			<h4><a href="">Women leather bag</a></h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+			<div class="product-bottom-details">
+				<div class="product-price"><small>$96.00</small>$230.99</div>
+				<div class="product-links">
+					<a href=""><i class="fa fa-heart"></i></a>
+					<a href=""><i class="fa fa-shopping-cart"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
     <!-- Footer -->

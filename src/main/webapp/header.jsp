@@ -40,9 +40,9 @@
 
         }
         .mainnav
-{
-    max-width: 100%; /* Adjust as needed */
-}
+        {
+            max-width: 100%; /* Adjust as needed */
+        }
         .carousel-container{
                 z-index: 3;
         }
