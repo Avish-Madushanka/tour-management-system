@@ -257,7 +257,7 @@
                 </p>
                 
                 <h3>Rs. 4,600</h3> 
-                <br><br><button>Taste Now</button>
+                <br><br><button>Try it</button>
             </div>
         </div>
     </div>
