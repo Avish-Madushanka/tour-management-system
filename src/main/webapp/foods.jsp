@@ -45,7 +45,7 @@
             height: 600px;
             background: #fff;
             
-            margin-right: 500px;
+            margin-center: 0px;
         }
 
         .container .imgBx {
@@ -63,11 +63,12 @@
             content: 'Indian';
             position: absolute;
             top: 0px;
-            left: 24px;
+           
             color: #000;
             opacity: 0.2;
-            font-size: 8em;
+            font-size: 7em;
             font-weight: 800;
+            align-center;
         }
 
         .container .imgBx img {
