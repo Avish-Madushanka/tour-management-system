@@ -248,7 +248,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             transition: transform 0.2s ease-in-out;
-            margin-left:50px;
+            margin-left:45px;
         }
 
         .product-card:hover {
@@ -312,10 +312,10 @@
 
 <!-- products -->
 	<div class="product-card">
-    <div class="product-image" style="background-image: url('image/a.png');"></div>
+    <div class="product-image" style="background-image: url('image/f1.jpg');"></div>
     <div class="product-details">
-        <div class="product-title">Product Name</div>
-        <div class="product-price">$19.99</div>
+        <div class="product-title"><b>Sea Food Mix</b></div>
+        <div class="product-price">4000.00</div>
     </div>
 </div>
 	
