@@ -238,6 +238,50 @@
             text-decoration: none;
             font-size: 12px;
         }
+
+        
+
+        .product-card {
+            max-width: 300px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease-in-out;
+            margin-left:50px;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px; /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            margin-left:0px;
+            margin-right:50px;
+            padding-right:50px;
+            
+        }
+
+        .product-details {
+            padding: 16px;
+        }
+
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .product-price {
+            color: #e44d26; /* Change color to your preference */
+            font-size: 16px;
+            font-weight: bold;
+        }
+                
     </style>
     
 </head>
@@ -267,6 +311,13 @@
     <br> <br> <br> <br> <br>
 
 <!-- products -->
+	<div class="product-card">
+    <div class="product-image" style="background-image: url('image/a.png');"></div>
+    <div class="product-details">
+        <div class="product-title">Product Name</div>
+        <div class="product-price">$19.99</div>
+    </div>
+</div>
 	
 </body>
 
