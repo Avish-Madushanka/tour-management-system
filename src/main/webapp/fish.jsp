@@ -50,31 +50,20 @@
         <img class="h-full max-w-full rounded-lg" src="image/ft3.jpg" alt="">
     </div>
     <div>
-        <img class="h-full max-w-full rounded-lg" src="image/ft4.jpg" alt="">
-    </div>
-    <div>
         <img class="h-full max-w-full rounded-lg" src="image/ft1.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
-    </div>
-    <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
-    </div>
-    <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
-    </div>
-    <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
-    </div>
-    <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
-    </div>
-    <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
+        <img class="h-full max-w-full rounded-lg" src="image/ft4.jpg" alt="">
     </div>
 </div>
-    
+ <br><br>
+    <div class="relative w-full h-96">
+    <iframe class="absolute top-0 left-0 w-full h-full"
+        src="https://maps.app.goo.gl/5xXa1Zkvnqy3fuAN7"
+        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+    </iframe>
+</div>
+
      </section>
 
     <script src="script.js"></script>
