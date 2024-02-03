@@ -8,43 +8,14 @@
  <br><br>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="path/to/your/tailwind.css"> <!-- Replace with the actual path to your Tailwind CSS file -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" /> <!-- Replace with the actual path to your Tailwind CSS file -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="tailwind.config.js"></script>
     <title>fish therapy</title>
     
     <style>
-    body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
-.container {
-    display: flex;
-}
 
-.slider-container {
-    flex: 1;
-}
-
-.slider {
-    width: 100%;
-    overflow: hidden;
-}
-
-.slider img {
-    width: 100%;
-    display: block;
-}
-
-.description-container {
-    flex: 1;
-    padding: 20px;
-}
-
-.description {
-    max-width: 600px;
-    margin: 0 auto;
-}
     </style>
 </head>
 
@@ -52,49 +23,23 @@
 
    
 
-    <div class="container">
-        <div class="slider-container">
-            <!-- Left side slider content goes here -->
-            <div class="slider">
-                <!-- Slider content, e.g., images, text, etc. -->
-                <img src="image/f1.jpg" alt="Slider Image 1">
-                <img src="image/f1.jpg" alt="Slider Image 2">
-                <img src="image/f1.jpg" alt="Slider Image 3">
-            </div>
+    <section class="bg-white dark:bg-gray-900">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class="mr-auto place-self-center lg:col-span-7">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Payments tool for software companies</h1>
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
+           
         </div>
-        
-        <div class="description-container">
-            <!-- Right side description content goes here -->
-            <div class="description">
-                <!-- Description content, e.g., text, additional images, etc. -->
-                <h2>Product Title</h2>
-                <p>Description of the product or any other relevant information.</p>
-            </div>
-        </div>
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
+        </div>                
     </div>
+</section>
 
     <script src="script.js"></script>
-</body>
-</html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    
 
-   
-    <footer>
-    </footer>
-
-    <script>
-        // Change The Picture and Associated Element Color when Color Options Are Clicked.
-        $(".product-colors span").click(function () {
-            $(".product-colors span").removeClass("active");
-            $(this).addClass("active");
-            $(".active").css("border-color", $(this).attr("data-color-sec"))
-            $("body").css("background", $(this).attr("data-color-primary"));
-            $(".content h2").css("color", $(this).attr("data-color-sec"));
-            $(".content h3").css("color", $(this).attr("data-color-sec"));
-            $(".container .imgBx").css("background", $(this).attr("data-color-sec"));
-            $(".container .details button").css("background", $(this).attr("data-color-sec"));
-            $(".imgBx img").attr('src', $(this).attr("data-pic"));
-        });+
-    </script>
 
 </body>
 
