@@ -56,6 +56,42 @@
         <img class="h-full max-w-full rounded-lg" src="image/ft4.jpg" alt="">
     </div>
 </div>
+
+ <section class="bg-white dark:bg-gray-900 flex items-center justify-center min-h-screen">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">TICKETS PRICE</h2>
+            <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400"></p>
+        </div>
+
+        <div class="flex flex-col sm:gap-6 xl:gap-10">
+            <div class="flex flex-col p-6 mx-auto max-w-md text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-2xl font-semibold">Adults</h3>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400"> Elevate your journey and embrace entertainment without limits</p>
+                <div class="flex justify-center items-baseline my-8">
+                    <span class="mr-2 text-5xl font-extrabold">Rs 1000</span>
+                    <span class="text-gray-500 dark:text-gray-400">/ Per 1Hour</span>
+                </div>
+            </div>
+
+            <div class="flex flex-col p-6 mx-auto max-w-md text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-2xl font-semibold">Child</h3>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Where young imaginations take flight and every moment is a magical discovery</p>
+                <div class="flex justify-center items-baseline my-8">
+                    <span class="mr-2 text-5xl font-extrabold">Rs 500</span>
+                    <span class="text-gray-500 dark:text-gray-400">/ Per 1Hour</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+  </div>
+  
+</section>
  <br><br>
     <div class="relative w-full h-96">
     <iframe class="absolute top-0 left-0 w-full h-full"
