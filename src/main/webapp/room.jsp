@@ -21,11 +21,56 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    
+    <link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+  rel="stylesheet" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+<script src="https://cdn.tailwindcss.com/3.3.0"></script>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+        body: ["Roboto", "sans-serif"],
+        mono: ["ui-monospace", "monospace"],
+      },
+    },
+    corePlugins: {
+      preflight: false,
+    },
+  };
+</script>
    
 </head>
 
 <body>
+     
+<div class="px-6 py-12 text-center md:px-12 lg:text-left">
+    <div class="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl xl:px-32">
+      <div class="grid items-center lg:grid-cols-2">
+        <div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
+          <div
+            class="block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
+            <h1 class="mt-2 mb-16 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
+              The best offer <br /><span class="text-primary">for your business</span>
+            </h1>
+            <a class="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
+              data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Get started</a>
+            <a class="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-40"
+              data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Learn more</a>
+          </div>
+        </div>
+        <div class="md:mb-12 lg:mb-0">
+          <img src="https://tecdn.b-cdn.net/img/new/ecommerce/vertical/004.jpg"
+            class="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
 <!-- Room Start -->
         <div class="container-xxl py-5">
             <div class="container">
@@ -256,9 +301,7 @@
                                 <div class="d-flex mb-3">
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>A/C & Wifi</small>
-                                    
-                                </div>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>A/C & Wifi</small></div>
                             </div>
                         </div>
                     </div>
@@ -266,7 +309,8 @@
             </div>
         </div>
         <!-- Room End -->
-
+<!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 </body>
 
 </html>
