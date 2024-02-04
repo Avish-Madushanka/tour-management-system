@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="md:mb-12 lg:mb-0">
-          <img src="https://tecdn.b-cdn.net/img/new/ecommerce/vertical/004.jpg"
+          <img src="image/roomw.jpeg"
             class="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
         </div>
       </div>
