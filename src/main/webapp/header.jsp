@@ -400,10 +400,10 @@
         
         <div class="navlinks23">
         <a href="index.jsp" class="nav-link2">Home</a>
-        <a href="AllProducts.jsp" class="nav-link2">All Services</a>
+        <a href="allS.jsp" class="nav-link2">All Services</a>
         <a href="orderDetails.jsp" class="nav-link2">Track Orders</a>
-        <a href="feedback.jsp" class="nav-link2">Contact Us</a>
-        <a href="teams.jsp" class="nav-link2">About Us</a>
+        <a href="aboutus.jsp" class="nav-link2">About Us</a>
+        <a href="contactus.jsp" class="nav-link2">Contact Us</a>
         </div>
     </div>
     </div>
