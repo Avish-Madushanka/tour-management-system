@@ -14,7 +14,10 @@
     object-position: center;
     max-width: 100%;
     height: 100%;
-    border-radius: 8px; 
+   
+    padding: 10px; 
+    margin-left: 30px;
+    margin-right: 40px;
     /* Optional: Add rounded corners */
 }
 
@@ -28,22 +31,22 @@
 
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
     <div>
-        <img class="image-item" style="width: 100%; height: 100%;" src="image/cate2.jpg" alt="">
+        <img class="image-item" style="width: 90%; height: 90%;" src="image/cate2.jpg" alt="">
     </div>
     <div>
-        <img class="image-item" style="width: 100%; height: 100%;" src="image/cate5.jpg" alt="">
+        <img class="image-item" style="width: 90%; height: 90%;" src="image/cate5.jpg" alt="">
     </div>
     <div>
-        <img class="image-item" style="width: 100%; height: 100%;" src="image/cate3.jpg" alt="">
+        <img class="image-item" style="width: 90%; height: 90%;" src="image/cate3.jpg" alt="">
     </div>
     <div>
-        <img class="image-item" style="width: 100%; height: 100%;" src="image/cate4.jpg" alt="">
+        <img class="image-item" style="width: 90%; height: 90%;" src="image/cate4.jpg" alt="">
     </div>
     <div>
-        <img class="image-item" style="width: 100%; height: 100%;" src="image/home1.jpg" alt="">
+        <img class="image-item" style="width: 90%; height: 90%;" src="image/home1.jpg" alt="">
     </div>
     <div>
-        <img class="image-item" style="width: 100%; height: 100%;" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+        <img class="image-item" style="width: 90%; height: 90%;" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
     </div>
 </div>
 
