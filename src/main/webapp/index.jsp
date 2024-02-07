@@ -1,17 +1,13 @@
 <html>
 <head>
-</head>
-<body>
-
- <%@ include file="header.jsp"%> 
- <link
+<link
   crossorigin="anonymous"
   href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
-  rel="stylesheet"
-/>
+  rel="stylesheet"/>
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
 <style>
-  .swiper-pagination {
+.swiper-pagination {
     bottom: 0;
     position: relative;
   }
@@ -26,6 +22,12 @@
     background-color:rgb(14 211 207);
   }
 </style>
+</head>
+<body>
+
+ <%@ include file="header.jsp"%> 
+ 
+  
 <div class="bg-no-repeat bg-cover bg-center relative" style=" background-image: url('image/home.jpg');">
 
  <div class="absolute bg-gradient-to-r from-gray-900 to-gray-900 opacity-75 inset-0 z-0"></div>
@@ -157,35 +159,8 @@
   </div>
 </div>
 </div>
-<script
-  crossorigin="anonymous"
-  defer
-  src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js"
-></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    new Swiper('.swiper-container', {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 8,
-      autoplay: {
-        delay: 8000,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 1.5,
-        },
-        1024: {
-          slidesPerView: 1,
-        },
-      },
-    })
-  })
-</script>
+<%@ include file="footer.jsp"%>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </body>
 </html>
