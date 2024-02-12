@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+ <%@ include file="header.jsp"%> 
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 *{
@@ -16,7 +16,7 @@
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
 }
-body{
+body1{
   min-height: 100vh;
   width: 100%;
   background: #c8e8e9;
@@ -159,7 +159,7 @@ body{
 }
 </style>
 </head>
-<body>
+<body1>
 
 <div class="container">
     <div class="content">
@@ -204,5 +204,5 @@ body{
     </div>
   </div>
 
-</body>
+</body1>
 </html>
