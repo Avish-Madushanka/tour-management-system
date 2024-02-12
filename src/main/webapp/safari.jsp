@@ -6,30 +6,11 @@
 <%@ include file="header.jsp"%> 
 <meta charset="ISO-8859-1">
 <title>Safari</title>
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"/>
-    <link
-      rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-     <!-- Swiper JS -->
+     <meta
+      name="viewport"content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper('.mySwiper', {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });
-    </script>
     
 </head>
 <body>
@@ -58,11 +39,8 @@
           />
         </div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
     </div>
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    
 
 </body>
