@@ -5,9 +5,10 @@
 <head>
 <%@ include file="header.jsp"%> 
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Safari</title>
 </head>
 <body>
+
 
 
 </body>
