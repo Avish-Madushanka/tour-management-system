@@ -161,6 +161,8 @@ body1{
 </head>
 <body1>
 
+<body1>
+
 <div class="container">
     <div class="content">
       <div class="left-side">
@@ -182,25 +184,27 @@ body1{
           <div class="text-one">avishmadushanka21@gmail.com</div>
         </div>
       </div>
-      <div class="right-side"><br><br>
-        <div class="topic-text">Send us a message</div><br>
-        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
-      <form action="#">
-      <br><br>
-        <div class="input-box">
-          <input type="text" placeholder="Enter your name">
-        </div>
-        <div class="input-box">
-          <input type="text" placeholder="Enter your email">
-        </div>
-        <div class="input-box message-box"></div>
-         <div class="button">
-          <input type="button" value="Send Now" >
-        </div>
-      </form>
-    </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>If you have any work for me or any types of queries related to my tutorials, you can send me a message here. It's my pleasure to help you.</p>
+        <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="Enter your name">
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Enter your email">
+          </div>
+          <div class="input-box message-box">
+            <textarea placeholder="Your message"></textarea>
+          </div>
+          <div class="button">
+            <input type="button" value="Send Now">
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 
 </body1>
+
 </html>
