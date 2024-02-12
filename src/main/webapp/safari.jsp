@@ -24,15 +24,16 @@
 }
 
 .slider-container img {
-  width: auto;
+  width: 300px; /* Set the fixed width of the image */
   height: auto;
   max-width: 100%;
   max-height: 100%;
-  object-fit: contain; /* Or 'cover' depending on your preference */
+  object-fit: contain;
 }
  
  </style> 
 </head>
+
 <body>
 
 <div class="slider">
