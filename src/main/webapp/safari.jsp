@@ -10,18 +10,30 @@
 <body>
 
 <!-- source: https://codepen.io/mfg888/pen/MWVGddj -->
-<section class="px-3 py-5 bg-neutral-100 lg:py-10">
-    <div class="grid lg:grid-cols-2 items-center justify-items-center gap-5">
-        <div class="order-2 lg:order-1 flex flex-col justify-center items-center">
-            <p class="text-4xl font-bold md:text-7xl text-orange-600">25% OFF</p>
-            <p class="text-4xl font-bold md:text-7xl">SUMMER SALE</p>
-            <p class="mt-2 text-sm md:text-lg">For a limited time only!</p>
-            <button class="text-lg md:text-2xl bg-black text-white py-2 px-5 mt-10 hover:bg-zinc-800">Shop Now</button>
+<section class="mb-40">
+ 
+
+  <div class="relative overflow-hidden bg-cover bg-no-repeat" style="
+        background-position: 50%;
+        background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
+        height: 500px;
+      ">
+    <div
+      class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">
+      <div class="flex h-full items-center justify-center">
+        <div class="px-6 text-center text-white md:px-12">
+          <h1 class="mt-2 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
+            The best offer on the market <br /><span>for your business</span>
+          </h1>
+          <button type="button"
+            class="rounded border-2 border-neutral-50 px-[46px] pt-[14px] pb-[12px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
+            data-te-ripple-init data-te-ripple-color="light">
+            Get started
+          </button>
         </div>
-        <div class="order-1 lg:order-2">
-            <img class="object-cover lg:w-full lg:h-auto" src="https://images.unsplash.com/photo-1615397349754-cfa2066a298e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
-        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 
