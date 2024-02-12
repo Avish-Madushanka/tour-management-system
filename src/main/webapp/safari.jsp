@@ -14,7 +14,7 @@
  
 
   <div class="relative overflow-hidden bg-cover bg-no-repeat" style="
-        background-position: 50%;
+        background-position: 100%;
         background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
         height: 300px;
       ">
