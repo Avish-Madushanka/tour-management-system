@@ -82,15 +82,13 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
 
         <!-- CARD 1 -->
-        <div class="rounded overflow-hidden shadow-lg flex flex-col">
+        <div class="rounded overflow-hidden shadow-lg flex flex-col mr-3">
             <a href="#"></a>
             <div class="relative"><a href="#">
                     <img class="w-full"
-                        src="https://images.pexels.com/photos/61180/pexels-photo-61180.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
-                        alt="Sunset in the mountains">
-                    <div
-                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
-                    </div>
+                        src="image/home1.jpg"
+                        alt="Sunset in the mountains"/>
+                    
                 </a>
                 <a href="#!">
                 </a>
@@ -134,15 +132,13 @@
 
 
         <!-- CARD 2 -->
-        <div class="rounded overflow-hidden shadow-lg flex flex-col">
+        <div class="rounded overflow-hidden shadow-lg flex flex-col mr-3">
             <a href="#"></a>
             <div class="relative"><a href="#">
                     <img class="w-full"
                         src="https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
                         alt="Sunset in the mountains">
-                    <div
-                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
-                    </div>
+                   
                 </a><a href="#!">
                 </a>
             </div>
@@ -185,15 +181,13 @@
 
         
         <!-- CARD 3 -->
-        <div class="rounded overflow-hidden shadow-lg flex flex-col">
+        <div class="rounded overflow-hidden shadow-lg flex flex-col mr-3">
             <a href="#"></a>
             <div class="relative"><a href="#">
                     <img class="w-full"
                         src="https://images.pexels.com/photos/6086/food-salad-healthy-vegetables.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
                         alt="Sunset in the mountains">
-                    <div
-                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
-                    </div>
+                   
                 </a><a href="#!">
                 </a>
             </div>
