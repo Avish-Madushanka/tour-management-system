@@ -14,9 +14,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins" , sans-serif;
-}
-body1{
+  font-family: 'Amaranth', sans-serif;}
+  
+section{
+ font-family: 'Amaranth', sans-serif;
   min-height: 100vh;
   width: 100%;
   background: #c8e8e9;
@@ -159,9 +160,7 @@ body1{
 }
 </style>
 </head>
-<body1>
-
-<body1>
+<section>
 
 <div class="container">
     <div class="content">
@@ -205,6 +204,6 @@ body1{
     </div>
   </div>
 
-</body1>
+</section>
 
 </html>
