@@ -4,7 +4,9 @@
     --light: #F1F8FF;
     --dark: #0F172B;
 }
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .fw-medium {
     font-weight: 500 !important;
 }
