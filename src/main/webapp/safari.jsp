@@ -79,7 +79,7 @@
         <a href="#"
             class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">Hilux Safari Jeep</a>
         <p class="text-gray-500 text-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            7 Seats & Non-adjustable roof
         </p>
     </div>
     <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
@@ -122,7 +122,7 @@
         <a href="#"
             class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">Mitsubishi Safari Jeep</a>
         <p class="text-gray-500 text-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            5 Seats & Aadjustable roof
         </p>
     </div>
     <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
@@ -164,7 +164,7 @@
         <a href="#"
             class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">Defender Safari Jeep</a>
         <p class="text-gray-500 text-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            7 Seats & Adjustable roof
         </p>
     </div>
     <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
