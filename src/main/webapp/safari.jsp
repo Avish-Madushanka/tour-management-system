@@ -86,7 +86,7 @@
     <div class="relative">
         <a href="#">
             <img class="w-full h-64 object-cover"
-                src="image/home1.jpg"
+                src="image/jeep1.jpg"
                 alt="Sunset in the mountains"/>
         </a>
     </div>
@@ -132,7 +132,7 @@
     <div class="relative">
         <a href="#">
             <img class="w-full h-64 object-cover"
-                src="https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
+                src="image/jeep2.jpg"
                 alt="Sunset in the mountains">
         </a>
     </div>
@@ -176,7 +176,7 @@
     <div class="relative">
         <a href="#">
             <img class="w-full h-64 object-cover"
-                src="https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
+                src="image/jeep3.jpg"
                 alt="Sunset in the mountains">
         </a>
     </div>
