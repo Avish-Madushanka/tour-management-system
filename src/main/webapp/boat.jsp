@@ -8,7 +8,16 @@
 <%@ include file="header.jsp"%> 
  <link href="https://cdn.jsdelivr.net/npm/mdb-ui-kit/css/mdb.min.css" rel="stylesheet">
 </head>
-
+<style>
+   .carousel-item img {
+    height: 350px; 
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 200px;
+    }
+</style>
 <body>
 
 <!-- Carousel wrapper -->
