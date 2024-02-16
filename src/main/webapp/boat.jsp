@@ -63,7 +63,7 @@
 
     <!-- Single item -->
     <div class="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+      <img src="image/boat3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
