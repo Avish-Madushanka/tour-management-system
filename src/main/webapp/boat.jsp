@@ -10,12 +10,12 @@
 </head>
 <style>
    .carousel-item img {
-    height: 450px; 
+    height: 800px; 
   }
   
   @media (max-width: 768px) {
     .carousel-item img {
-      height: 200px;
+      height: 250px;
     }
 </style>
 <body>
