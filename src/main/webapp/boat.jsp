@@ -20,11 +20,9 @@
 </style>
 <body>
 
-<!-- Carousel wrapper -->
-<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" data-mdb-carousel-init>
-  <!-- Indicators -->
+	<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" data-mdb-carousel-init>
   <div class="carousel-indicators">
-    <button
+	<button
       type="button"
       data-mdb-target="#carouselBasicExample"
       data-mdb-slide-to="0"
@@ -83,7 +81,6 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
 <!-- Carousel wrapper -->
 <script src="https://cdn.jsdelivr.net/npm/mdb-ui-kit/js/mdb.min.js"></script>
 <script>
