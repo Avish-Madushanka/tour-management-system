@@ -6,6 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <%@ include file="header.jsp"%> 
+ <link href="https://cdn.jsdelivr.net/npm/mdb-ui-kit/css/mdb.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,20 +21,17 @@
       data-mdb-slide-to="0"
       class="active"
       aria-current="true"
-      aria-label="Slide 1"
-    ></button>
+      aria-label="Slide 1"></button>
     <button
       type="button"
       data-mdb-target="#carouselBasicExample"
       data-mdb-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
+      aria-label="Slide 2"></button>
     <button
       type="button"
       data-mdb-target="#carouselBasicExample"
       data-mdb-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
+      aria-label="Slide 3"></button>
   </div>
 
   <!-- Inner -->
@@ -78,6 +76,11 @@
   </button>
 </div>
 <!-- Carousel wrapper -->
+<script src="https://cdn.jsdelivr.net/npm/mdb-ui-kit/js/mdb.min.js"></script>
+<script>
+    import { Carousel, initMDB } from "mdb-ui-kit";
 
+    initMDB({ Carousel });
+</script>
 </body>
 </html>
