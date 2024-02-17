@@ -118,7 +118,7 @@
         
         
         .second-navbar2 {
-            background-color: #A70D2A;
+            background-color: #033E3E;
             padding: 10px 60px;
             display: flex;
             z-index: 2;
