@@ -54,7 +54,7 @@
 
     <!-- Single item -->
     <div class="carousel-item">
-      <img src="image/boat2.jpg" class="d-block w-100" alt="Sunset Over the City"/>
+      <img src="image/boat4.jpg" class="d-block w-100" alt="Sunset Over the City"/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
