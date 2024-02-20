@@ -61,7 +61,7 @@
 		    <div class="border-b mb-5 flex justify-between text-sm">
 		        <div class="text-indigo-600 flex items-center pb-2 pr-2 border-b-2 border-indigo-600 uppercase">
 		           
-		            <p class="font-semibold inline-block">Type of Jeep</p>
+		            <p class="font-semibold inline-block">Type of Jeeps</p>
 		        </div>
 		    </div>
 		
