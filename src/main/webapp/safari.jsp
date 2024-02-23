@@ -206,7 +206,7 @@
 	        </div>
 	        <div class="grid grid-cols-2 gap-4 mt-8">
 	            <img class="w-full rounded-lg" src="image/safa1.jpeg" alt="office content 1">
-	            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="image/safa2.jpeg" alt="office content 2">
+	            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="image/safa2.jpg" alt="office content 2">
 	        </div>
 	    </div>
 		</section>
