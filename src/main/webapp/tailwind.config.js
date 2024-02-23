@@ -1,6 +1,15 @@
 /**
  * 
- */tailwind.config = {
+ */
+
+  tailwind.config = {
+	  content: [
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  plugins: [require("tw-elements/dist/plugin.cjs")],
   darkMode: 'class',
   theme: {
     extend: {
@@ -43,6 +52,7 @@
     'Segoe UI Symbol', 
     'Noto Color Emoji'
   ]
+  
     }
   }
 }
