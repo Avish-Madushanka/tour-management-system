@@ -5,3 +5,9 @@
 
 <p>This is a Tour Management Web Application</p>
 <p><b>Languages</b></p>
+<ul>
+  <li>Frontend</li>
+  <ol>
+    <li>HTML</li>
+  </ol>
+</ul>
