@@ -4,4 +4,4 @@
 <h3>Your Tour Management Guide</h3>
 
 <p>This is a Tour Management Web Application</p>
-<p>Developed using HTML,Tailwind CSS</p>
+<p>Developed using HTML,Tailwind CSS for Front-End</p>
