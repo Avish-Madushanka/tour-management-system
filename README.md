@@ -17,7 +17,6 @@
   </ol>
   <li>IDE</li>
   <ol>Eclipse</ol>
-  <li>
-    
+  <li>Current Status</li>
   </li>
 </ul>
