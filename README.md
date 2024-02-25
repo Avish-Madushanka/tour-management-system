@@ -9,7 +9,6 @@
   <li>Frontend</li>
   <ol>
     <li>HTML</li>
-  <li>CSS
-  </li>
+  <li>CSS</li>
   </ol>
 </ul>
