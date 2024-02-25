@@ -11,5 +11,5 @@
     <li>HTML</li>
   <li>CSS</li>
   </ol>
-  <li>BackEnd</li>
+  <li>Back-End</li>
 </ul>
