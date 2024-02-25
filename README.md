@@ -6,7 +6,7 @@
 <p>This is a Tour Management Web Application</p>
 <p><b>Languages</b></p>
 <ul>
-  <li>Frontend</li>
+  <li>Front- End</li>
   <ol>
     <li>HTML</li>
   <li>CSS</li>
