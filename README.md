@@ -15,6 +15,6 @@
   <ol>
     <li>Java</li>
   </ol>
-  <li>Eclipse</li>
+  <li>IDE</li>
   <ol></ol>
 </ul>
