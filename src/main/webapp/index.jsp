@@ -17,7 +17,7 @@
 
     <main class="my-8">
         <div class="container mx-auto px-6">
-		   <div class="h-64 rounded-md overflow-hidden bg-cover bg-center" style="background-image: url('image/cate8.jpg');">
+		   <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate9.jpg')">
 		        <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
 		            <div class="px-10 max-w-xl">
 		                <h2 class="text-2xl text-white font-semibold">Accommodation</h2>
