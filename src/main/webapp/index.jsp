@@ -103,7 +103,7 @@
                             </button>
                         </div>
                         <div class="px-5 py-3">
-                            <h3 class="text-gray-700 uppercase">Chanel</h3>
+                            <h3 class="text-gray-700 uppercase">Safari</h3>
                             <span class="text-gray-500 mt-2">$12</span>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                             </button>
                         </div>
                         <div class="px-5 py-3">
-                            <h3 class="text-gray-700 uppercase">Man Mix</h3>
+                            <h3 class="text-gray-700 uppercase">Boat Safari</h3>
                             <span class="text-gray-500 mt-2">$12</span>
                         </div>
                     </div>
