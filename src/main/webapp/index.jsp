@@ -17,7 +17,7 @@
 
     <main class="my-8">
         <div class="container mx-auto px-6">
-		   <div class="h-64 rounded-md overflow-hidden bg-cover bg-center" style="background-image: url('image/cate4.jpg');">
+		   <div class="h-64 rounded-md overflow-hidden bg-cover bg-center" style="background-image: url('image/cate8.jpg');">
 		        <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
 		            <div class="px-10 max-w-xl">
 		                <h2 class="text-2xl text-white font-semibold">Accommodation</h2>
@@ -60,7 +60,7 @@
                 <h1 class="text-gray-600 text-6xl font-medium"><center>Our Services</center></h1>
                 <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
                     <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-                        <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate5.jpg')">
+                        <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate8.jpg')">
                             
                         </div>
                         <div class="px-5 py-3">
@@ -75,7 +75,7 @@
                         
                     </div>
                     <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-                        <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate2.jpg')">
+                        <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate9.jpg')">
                             
                         </div>
                         <div class="px-5 py-3">
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                     <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-                         <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate4.jpg')">
+                         <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate7.jpg')">
                         </div>
                         <div class="px-5 py-3">
                             <h3 class="text-gray-700 uppercase">Boat Safari</h3>
