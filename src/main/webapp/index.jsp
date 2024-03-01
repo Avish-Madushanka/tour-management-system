@@ -1,7 +1,6 @@
 <html>
 <head>
 <link
-  crossorigin="anonymous"
   href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
   rel="stylesheet"/>
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
