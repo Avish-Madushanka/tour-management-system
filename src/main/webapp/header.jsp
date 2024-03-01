@@ -4,183 +4,544 @@
 <%@ page import="jakarta.servlet.http.HttpSession" %>
 <%@ page import="java.text.DecimalFormat" %>
 
+
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="styles.css">
-		<style>
-		/* CSS for Navigation Bar */
-		.flex {
-		  display: flex;
-		}
-		
-		.flex-wrap {
-		  flex-wrap: wrap;
-		}
-		
-		.justify-start {
-		  justify-content: flex-start;
-		}
-		
-		.flex-nowrap {
-		  flex-wrap: nowrap;
-		}
-		
-		.w-full {
-		  width: 100%;
-		}
-		
-		.bg-white {
-		  background-color: #ffffff;
-		}
-		
-		.text-sm {
-		  font-size: 0.875rem;
-		}
-		
-		.py-4 {
-		  padding-top: 1rem;
-		  padding-bottom: 1rem;
-		}
-		
-		.dark-bg-gray-800 {
-		  background-color: #1f2937; /* Darker background color */
-		}
-		
-		.max-w-[85rem] {
-		  max-width: 85rem;
-		}
-		
-		.mx-auto {
-		  margin-right: auto;
-		  margin-left: auto;
-		}
-		
-		.px-4 {
-		  padding-right: 1rem;
-		  padding-left: 1rem;
-		}
-		
-		.items-center {
-		  align-items: center;
-		}
-		
-		.justify-between {
-		  justify-content: space-between;
-		}
-		
-		.sm-order-1 {
-		  order: 1;
-		}
-		
-		.flex-none {
-		  flex: none;
-		}
-		
-		.text-xl {
-		  font-size: 1.25rem;
-		}
-		
-		.font-semibold {
-		  font-weight: 600;
-		}
-		
-		.dark-text-white {
-		  color: #ffffff; /* White text color for dark mode */
-		}
-		
-		.sm-order-3 {
-		  order: 3;
-		}
-		
-		.gap-x-2 {
-		  column-gap: 0.5rem;
-		}
-		
-		.p-2.5 {
-		  padding: 0.625rem;
-		}
-		
-		.inline-flex {
-		  display: inline-flex;
-		}
-		
-		.hs-collapse-toggle {
-		  /* Add your button styles here */
-		}
-		
-		.rounded-lg {
-		  border-radius: 0.5rem;
-		}
-		
-		.border {
-		  border-width: 1px;
-		  border-style: solid;
-		}
-		
-		.border-gray-200 {
-		  border-color: #e5e7eb;
-		}
-		
-		.hover\:bg-gray-50:hover {
-		  background-color: #f9fafb; /* Light gray background color on hover */
-		}
-		
-		.disabled\:opacity-50:disabled {
-		  opacity: 0.5;
-		}
-		
-		.disabled\:pointer-events-none:disabled {
-		  pointer-events: none;
-		}
-		
-		.dark-bg-transparent {
-		  background-color: transparent; /* Transparent background color for dark mode */
-		}
-		
-		.dark-border-gray-700 {
-		  border-color: #4b5563; /* Dark gray border color for dark mode */
-		}
-		
-		.dark-text-white {
-		  color: #ffffff; /* White text color for dark mode */
-		}
-		
-		.dark-bg-slate-900 {
-		  background-color: #111827; /* Dark background color */
-		}
-		
-		.dark-border-gray-700
-		
-		</style>
-		</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shop Management System</title>
+    <link rel ="stylesheet" href="css/Navbar.css">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Reem+Kufi:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+   
+    
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Reem+Kufi:wght@400;500;600;700&display=swap');
 
 
-		<body>
-		<header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-4 dark:bg-gray-800">
-		  <nav class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between" aria-label="Global">
-		    <a class="sm:order-1 flex-none text-xl font-semibold dark:text-white" href="#">Brand</a>
-		    <div class="sm:order-3 flex items-center gap-x-2">
-		      <button type="button" class="sm:hidden hs-collapse-toggle p-2.5 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 				disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-gray-700 dark:text-white dark:hover:bg-white/10 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" 				data-hs-collapse="#navbar-alignment" aria-controls="navbar-alignment" aria-label="Toggle navigation">
-		        <svg class="hs-collapse-open:hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 					stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
-		        <svg class="hs-collapse-open:block hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"								 					stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-		      </button>
-		      <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 					disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-		        Button
-		      </button>
+		body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Amaranth', sans-serif;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+
+        }
+        .mainnav
+        {
+            max-width: 100%; /* Adjust as needed */
+        }
+        .carousel-container{
+                z-index: 3;
+        }
+
+        .top-navbar {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+        .top-navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        .top-navbar a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: black;
+            transition: color 0.3s; /* Smooth transition for the underline effect */
+        }
+
+        .top-navbar a:hover {
+          color: white; 
+          text-decoration: none;
+        }
+        .cart-total {
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
+        .logo {
+            width:170px;
+            height: 45px;
+        }
+
+        .search-bar-container {
+            display: flex;
+            align-items: center;
+            background-color: #f2f2f2;
+            border-radius: 25px;
+            padding: 8px;
+        }
+        
+
+        .search-bar {
+            width: 400px;
+            border: none;
+            background-color: transparent;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .search-icon {
+            margin-right: 8px;
+            color: grey;
+        }
+
+        .top-navbar-right {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .top-navbar-right a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        
+        
+        .second-navbar2 {
+            background-color: #033E3E;
+            padding: 10px 60px;
+            display: flex;
+            z-index: 2;
+            
+        }
+        .second-navbar2 .nav-link2 {
+           
+            margin: 0; /* Remove default margin */
+            padding-top: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s;
+            margin-left: 28px; /* Adjust the margin between navlinks */
+        }
+
+        .navlinks23 {
+            
+            padding-top: 5px;
+            margin-left: 180px;
+            font-size: 20px;
+        }
+        .wrap{
+            padding-left: 40px;
+        }
+
+        .second-navbar2 .nav-link2:hover {
+            color: yellow; 
+        }
+        .cart-icon {
+            margin-right: 20px;
+            color: black;
+            text-decoration: none;
+            position: relative;
+            font-size: 24px;
+        }
+       .hamburger-menu-links {
+            display: none;
+        }
+
+        .cart-count {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            padding-top: 10px;
+            padding-left: 15px;
+        }
+        .hamburger-menu div {
+            width: 25px; /* Increase the width of the bars */
+            height: 3px; /* Increase the height of the bars */
+            background-color: black;
+            margin: 3px 0; /* Increase the gap between bars */
+            transition: 0.4s;
+        }
+        
+        .dropdown-toggle {
+    	  display: inline-block;
+          padding: 7px 10px;
+          width: 150px;
+          font-size: 20px;
+          cursor: pointer;
+          text-align: center;
+          text-decoration: none;
+          outline: none;
+          color: black;
+          background-color: #FEDE00;
+          border: none;
+          border-radius: 15px;
+          align-items: center;
+          
+       }
+       .dropdown {
+	    position: relative;
+	    display: inline-block;
+	    margin-left:35px;
+	}
+		.dropdown-menu {
+		    background-color: #FEDE00 !important; /* Set the background color for the entire dropdown */
+		    border-radius: 25px; /* Adjust the border-radius for oval shape */
+		    width: 180px;
+		    position: absolute;
+		    padding: 20px 0;
+		    position: absolute;
+		    top: 100%;
+		    left: 0;
+		    display: none;
+	}
+
+		.dropdown-item {
+		    color: black;
+		    padding: 25px 15px;
+		    transition: color 0.3s;
+		    font-size:16px;
+		    margin-left: 5px;
+		   margin-right: 20px;
+		    margin-bottom:10px;
+		    border-radius: 10px; 
+		}
+
+			.dropdown-item:hover {
+			    background-color: transparent !important; 
+			    color: #04A702 !important; 
+			    text-decoration: none;
+			}
+
+
+		.dropdown:hover .dropdown-menu {
+		    display: block;
+		}
+
+
+    @media (max-width: 768px) {
+    .dropdown-menu {
+        background-color: white !important; /* Set the background color for the entire dropdown in mobile view */
+        border-radius: 15px; /* Adjust the border-radius for curved edges in mobile view */
+        padding: 10px 0; /* Adjust the top and bottom padding for space between links in mobile view */
+    }
+	.dropdown {
+    
+    margin-left:0px;
+    background-color:white;
+}
+    .dropdown-item {
+        padding: 10px 15px;
+        border-radius: 10px; /* Adjust the border-radius for curved edges in mobile view */
+    }
+
+    .dropdown-toggle {
+    
+          
+          font-size: 15px;
+          cursor: pointer;
+          text-align: left;
+          text-decoration: none;
+          outline: none;
+          color: black;
+          background-color:white;
+          border: none;
+          
+          align-items: center;
+		}
+		.search-bar {
+            width: 300px; /* Adjust the width as per your design */
+        }
+                
+        .top-navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+               
+        .top-navbar-right {
+            margin-top: 10px;
+            display: none;
+        }
+        .second-navbar2{
+            display: none;
+        }
+
+        .hamburger-menu {
+            display: flex;
+        }
+		.hamburger-menu {
+            display: flex;
+        }
+
+        .hamburger-menu-links {
+            display: none;
+            flex-direction: column;
+            background-color: white;
+            width: 100%;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            z-index: 1;
+            color: black;
+        }
+
+        .hamburger-menu-links a {
+            margin: 0;
+            padding: 10px 20px;
+            text-align: left;
+            color: black;
+            z-index: 1;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc;
+            transition: background-color 0.3s;
+        }
+
+        .hamburger-menu-links.active {
+            display: flex;
+        }
+
+            /* Restyle the dropdown menu */
+        .hamburger-menu-links .categories-dropdown-content,
+        .hamburger-menu-links .nav-link2 {
+            margin: 0;
+            padding: 10px 20px;
+            text-align: left;
+            color: black;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc;
+            transition: background-color 0.3s;
+        }
+
+        .hamburger-menu-links .categories-dropdown-content:last-child,
+        .hamburger-menu-links .nav-link2:last-child {
+            border-bottom: none;
+        }
+
+        .hamburger-menu-links .categories-dropdown-content:hover,
+        .hamburger-menu-links .nav-link2:hover {
+            background-color: #f2f2f2;
+        }   
+
+}
+
+        </style>
+        
+</head>
+<body>
+	<!--Company Header Starting  -->
+	
+	<!-- Company Header Ending -->
+	
+	<%
+	/* Checking the user credentials */
+	String userType = (String) session.getAttribute("usertype");
+	if (userType == null) { //LOGGED OUT
+	%>
+	<div class="mainnav">
+	<div class="hamburger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="hamburger-menu-links">
+        <a href="index.jsp">Home</a>
+        <a href="AllProducts.jsp">All Services</a>
+        <a href="teams.jsp">About Us</a>
+        <a href="feedback.jsp">Contact Us</a>
+        <div class="dropdown">
+       
+    </div>
+        <a href="register.jsp">Signup</a>
+        <a href="Login.jsp">Login</a>
+    </div>
+	<div class="top-navbar">
+
+        <div>
+            <img src="image/logo3.png"  alt="Logo" class="logo">
+        </div>
+
+</form>
+        <div class="top-navbar-right">
+            <a href="register.jsp">Signup</a>
+            <a href="login.jsp">Login</a>
+        </div>
+    </div>
+
+	<!-- Starting Navigation Bar -->
+	<div class="second-navbar2">
+        <div class="dropdown">
+        <div class="dropdown-menu" aria-labelledby="categories-dropdown-toggle">
+            
+        </div>
+    </div>
+
+        
+        <div class="navlinks23">
+        <a href="index.jsp" class="nav-link2">Home</a>
+        <a href="allS.jsp" class="nav-link2">All Services</a>
+        <a href="orderDetails.jsp" class="nav-link2">Track Orders</a>
+        <a href="aboutus.jsp" class="nav-link2">About Us</a>
+        <a href="contactus.jsp" class="nav-link2">Contact Us</a>
+        </div>
+    </div>
+    </div>
+    </div>
+	<%
+	} else if ("customer".equalsIgnoreCase(userType)) { //CUSTOMER HEADER
+
+	/* double notf = new CartServiceImpl().getCartSum((String) session.getAttribute("username")); */
+	
+	
+	%>
+	<div class="mainnav">
+	<div class="hamburger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="hamburger-menu-links">
+        <a href="index.jsp">Home</a>
+        <a href="AllProducts.jsp">All Services</a>
+         <a href="orderDetails.jsp">Track Orders</a>
+        <a href="teams.jsp">About Us</a>
+         <a href="userProfile.jsp">Profile</a>
+        <a href="feedback.jsp">Contact Us</a>
+        <div class="dropdown">
+
+        <a href="register.jsp">Signup</a>
+        <a href="./LogoutSrv">Logout</a>
+    </div>
+	<div class="top-navbar">
+
+        <div>
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </div>
+        <form class="form-inline" action="AllProducts.jsp" method="get">
+
+</form>
+        <div class="top-navbar-right">
+            <a href="register.jsp">Signup</a>
+            <a href="./LogoutSrv">Logout</a>
+            
+        </div>
+    </div>
+
+	<!-- Starting Navigation Bar -->
+	<div class="second-navbar2">
+        <div class="dropdown">
+        <div class="dropdown-toggle" id="categories-dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            &nbsp;Categories
+        </div>
+        <div class="dropdown-menu" aria-labelledby="categories-dropdown-toggle">
+            <a class="dropdown-item" href="organicvege.jsp">Organic Vegetables</a>
+            <a class="dropdown-item" href="organicfruits.jsp">Organic Fruits</a>
+            <a class="dropdown-item" href="grocery.jsp">Grocery Items</a>
+            <a class="dropdown-item" href="Bakery.jsp">Bakery Items</a>
+            <a class="dropdown-item" href="SnacksandBiscuits.jsp">Biscuits & Snacks</a>
+            <a class="dropdown-item" href="Drinks.jsp">Beverages & Drinks</a>
+            <a class="dropdown-item" href="beauty.jsp">Beauty & Healthcare</a>
+        </div>
+    </div>
+
+        
+        <div class="navlinks23">
+        <a href="index.jsp" class="nav-link2">Home</a>
+        <a href="AllProducts.jsp" class="nav-link2">All Services</a>
+        <a href="orderDetails.jsp" class="nav-link2">Track Orders</a>
+        <a href="userProfile.jsp" class="nav-link2">Profile</a>
+        <a href="feedback.jsp" class="nav-link2">Contact Us</a>
+        <a href="teams.jsp" class="nav-link2">About Us</a>
+        </div>
+    </div>
+    </div>
+    </div>
+					
+					
+	<%
+	} else { //ADMIN HEADER
+	%>
+	<div class="mainnav">
+			<div class="hamburger-menu">
+		        <div></div>
+		        <div></div>
+		        <div></div>
 		    </div>
-		    <div id="navbar-alignment" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2">
-		      <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-		        <a class="font-medium text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#" aria-current="page">Landing</a>
-		        <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Account</a>
-		        <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Work</a>
-		        <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Blog</a>
-		      </div>
-		    </div>
-		  </nav>
-		</header>
+		    <div class="hamburger-menu-links">
+		        <a href="index.jsp">Home</a>
+		        <a href="AllProducts.jsp">All Services</a>
+		         <a href="addProduct.jsp">Add Service</a>
+		        <a href="adminViewProduct.jsp">Update Products</a>
+		        <a href="adminStock.jsp">Stock</a>
+		        <a href="unshippedItems.jsp">Orders</a>
+		        <div class="categories-dropdown">
+    
 
+		        <a href="register.jsp">Signup</a>
+		        <a href="./LogoutSrv">Logout</a>
+		    </div>
+		    
+		    </div>
+			<div class="top-navbar">
+		
+		        <div>
+		            <img src="images/logo.png" alt="Logo" class="logo">
+		        </div>
+		        <form class="form-inline" action="AllProducts.jsp" method="get">
+
+</form>
+
+
+		        <div class="top-navbar-right">
+		            <a href="register.jsp">Signup</a>
+		            <a href="./LogoutSrv">Logout</a>
+		            
+		        </div>
+		    </div>
+		    <div class="second-navbar2">
+		        <div class="dropdown">
+    </div>
+		        <div class="navlinks23">
+		        <a href="index.jsp" class="nav-link2">Home</a>
+		        <a href="AllProducts.jsp" class="nav-link2">All Services</a>
+		        <a href="orderDetails.jsp" class="nav-link2">Track Orders</a>
+		        <a href="shippedItems.jsp" class="nav-link2">Shipped</a>
+		        <a href="unshippedItems.jsp" class="nav-link2">Unshipped</a>
+		        <a href="addProduct.jsp" class="nav-link2">Add Product</a>
+		        <a href="adminViewProduct.jsp" class="nav-link2">Update Products</a>
+		        <a href="adminStock.jsp" class="nav-link2">Stock</a>
+		        </div>
+		    </div>
+		    </div>
+	<%
+	}
+	%>
+
+    
+	<!-- End of Navigation Bar -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
 	 <script>
    
     // Fetch total amount using JavaScript
