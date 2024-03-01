@@ -29,8 +29,8 @@
 
             <nav>
                 <ul class="flex items-center justify-between font-bold text-sm text-white uppercase no-underline">
-                    <li><a class="hover:text-gray-200 hover:underline px-4" href="#">Shop</a></li>
-                    <li><a class="hover:text-gray-200 hover:underline px-4" href="#">About</a></li>
+                    <li><a class="hover:text-gray-200 hover:underline px-4" href="#">Signup</a></li>
+                    <li><a class="hover:text-gray-200 hover:underline px-4" href="#">Sing In</a></li>
                 </ul>
             </nav>
 
@@ -54,15 +54,10 @@
 
     <!-- Text Header -->
     <header class="w-full container mx-auto">
-        <div class="flex flex-col items-center py-12">
-            <a class="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl" href="#">
-                Minimal Blog
-            </a>
-            <p class="text-lg text-gray-600">
-                Lorem Ipsum Dolor Sit Amet
-            </p>
-        </div>
-    </header>
+    <div class="flex flex-col items-center py-12">
+        <img src="image/logo3.png" alt="Logo" width="300" height="50">
+    </div>
+	</header>
 
     <!-- Topic Nav -->
     <nav class="w-full py-4 border-t border-b bg-gray-100" x-data="{ open: false }">
@@ -77,12 +72,10 @@
         </div>
         <div :class="open ? 'block': 'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
             <div class="w-full container mx-auto flex flex-col sm:flex-row items-center justify-center text-sm font-bold uppercase mt-0 px-6 py-2">
-                <a href="#" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">Technology</a>
-                <a href="#" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">Automotive</a>
-                <a href="#" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">Finance</a>
-                <a href="#" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">Politics</a>
-                <a href="#" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">Culture</a>
-                <a href="#" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">Sports</a>
+                <a href="index.jsp" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">Home</a>
+                <a href="allS.jsp" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">Our Services</a>
+                <a href="about.jsp" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">About Us</a>
+                <a href="contactus.jsp" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">Contact Us</a>
             </div>
         </div>
     </nav>
