@@ -67,8 +67,14 @@
                         </div>
                         <div class="px-5 py-3">
                             <h3 class="text-gray-700 uppercase">Accommodation</h3>
-                            <span class="text-gray-500 mt-2">$12</span>
+                           <a href="room.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-400 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-500 dark:bg-green-200 dark:hover:bg-green-700 dark: focus:ring-green-800">
+                Explore Now
+                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
                         </div>
+                        
                     </div>
                     <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
                         <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate2.jpg')">
@@ -78,7 +84,12 @@
                         </div>
                         <div class="px-5 py-3">
                             <h3 class="text-gray-700 uppercase">Food</h3>
-                            <span class="text-gray-500 mt-2">$12</span>
+                            <a href="room.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-400 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-500 dark:bg-green-200 dark:hover:bg-green-700 dark: focus:ring-green-800">
+                Explore Now
+                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
                         </div>
                     </div>
                     <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
