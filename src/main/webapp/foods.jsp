@@ -4,26 +4,25 @@
 <html lang="en">
 
 <head>
- <%@ include file="header.jsp"%> 
+
  <br><br>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="path/to/your/tailwind.css"> <!-- Replace with the actual path to your Tailwind CSS file -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/0.7.5/flowbite.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>foods</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/reg.css">
-<script
+
+	<link rel="stylesheet" href="css/reg.css">
+	<script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script
+	<script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/Navbar.css">
+	 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<style>
     <!-- Vendor Script -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+   
 
         body {
             margin: 0;
@@ -226,20 +225,7 @@
            }
        }
         
-      
-        footer {
-            position: fixed;
-            right: 16px;
-            bottom: 12px;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 12px;
-        }
-
-        
+     
 
         .product-card {
             max-width: 300px;
@@ -281,13 +267,91 @@
             font-size: 16px;
             font-weight: bold;
         }
-                
+               
+			    body {
+			  margin: 0;
+			  font-family: Arial, sans-serif;
+			}
+			
+			.navbar {
+			  background-color: #333;
+			  padding: 10px 20px;
+			}
+			
+			.navbar-container {
+			  display: flex;
+			  align-items: center;
+			  justify-content: space-between;
+			}
+			
+			.navbar-links {
+			  display: flex;
+			  justify-content: center;
+			  flex-grow: 1; /* Added this line */
+			}
+			
+			.navbar-links a {
+			  color: #fff;
+			  text-decoration: none;
+			  margin: 0 15px;
+			}
+			
+			.navbar-signin a {
+			  color: #fff;
+			  text-decoration: none;
+			  border: 2px solid #fff;
+			  padding: 8px 20px;
+			  border-radius: 5px;
+			}
+			
+			@media screen and (max-width: 768px) {
+			  .navbar-container {
+			    flex-direction: column;
+			    align-items: stretch;
+			  }
+			
+			  .navbar-links {
+			    margin-top: 20px;
+			    justify-content: center;
+			  }
+			
+			  .navbar-links a {
+			    margin: 10px 0;
+			    display: block;
+			  }
+			
+			  .navbar-signin {
+			    margin-top: 20px;
+			    text-align: center;
+			  }
+			}
+			 
     </style>
     
 </head>
 
 <body>
-
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+	  <div class="max-w-screen-xl flex items-center justify-center mx-auto p-4"> <!-- Modified this line -->
+	    <a href="{{< param homepage >}}/" class="flex items-center space-x-3 rtl:space-x-reverse">
+	        <img src="image/logo3.png" class="h-20" alt="Logo" />
+	    </a>
+	  </div>
+	</nav>
+	
+	<nav class="navbar">
+	  <div class="navbar-container">
+	    <div class="navbar-links">
+	      <a href="index.jsp">Home</a>
+	      <a href="allS.jsp">Services</a>
+	      <a href="about.jsp">About</a>
+	      <a href="contactus.jsp">Contact</a>
+	    </div>
+	    <div class="navbar-signin">
+	      <a href="#">Sign In</a>
+	    </div>
+	  </div>
+	</nav>
     <div class="container" align="center">
         <div class="imgBx">
             <img src="image/curry.png?raw=true" alt="crab">
@@ -326,20 +390,21 @@
        
     </footer>
 
-    <script>
-        // Change The Picture and Associated Element Color when Color Options Are Clicked.
-        $(".product-colors span").click(function () {
-            $(".product-colors span").removeClass("active");
-            $(this).addClass("active");
-            $(".active").css("border-color", $(this).attr("data-color-sec"))
-            $("body").css("background", $(this).attr("data-color-primary"));
-            $(".content h2").css("color", $(this).attr("data-color-sec"));
-            $(".content h3").css("color", $(this).attr("data-color-sec"));
-            $(".container .imgBx").css("background", $(this).attr("data-color-sec"));
-            $(".container .details button").css("background", $(this).attr("data-color-sec"));
-            $(".imgBx img").attr('src', $(this).attr("data-pic"));
-        });+
-    </script>
+<script>
+    // Change The Picture and Associated Element Color when Color Options Are Clicked.
+    $(".product-colors span").click(function () {
+        $(".product-colors span").removeClass("active");
+        $(this).addClass("active");
+        $(".active").css("border-color", $(this).attr("data-color-sec"))
+        $("body").css("background", $(this).attr("data-color-primary"));
+        $(".content h2").css("color", $(this).attr("data-color-sec"));
+        $(".content h3").css("color", $(this).attr("data-color-sec"));
+        $(".container .imgBx").css("background", $(this).attr("data-color-sec"));
+        $(".container .details button").css("background", $(this).attr("data-color-sec"));
+        $(".imgBx img").attr('src', $(this).attr("data-pic"));
+    });
+</script>
+
 
 </body>
 

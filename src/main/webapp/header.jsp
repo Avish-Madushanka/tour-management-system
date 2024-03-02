@@ -6,7 +6,7 @@
     <title></title>
 
 		    
-			    <style>
+<!-- 			    <style>
 			    body {
 			  margin: 0;
 			  font-family: Arial, sans-serif;
@@ -64,7 +64,7 @@
 			    text-align: center;
 			  }
 			}
-			    </style>
+			    </style> -->
 	<body >
 	
 	
@@ -77,19 +77,19 @@
 	  </div>
 	</nav>
 	
-	<nav class="navbar">
+<!-- 	<nav class="navbar">
 	  <div class="navbar-container">
 	    <div class="navbar-links">
 	      <a href="index.jsp">Home</a>
 	      <a href="allS.jsp">Services</a>
-	      <a href="about">About</a>
-	      <a href="#">Contact</a>
+	      <a href="about.jsp">About</a>
+	      <a href="contactus.jsp">Contact</a>
 	    </div>
 	    <div class="navbar-signin">
 	      <a href="#">Sign In</a>
 	    </div>
 	  </div>
-	</nav>
+	</nav> -->
 	
 	</body>
 	</html>
