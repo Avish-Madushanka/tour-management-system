@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>King Crab</title>
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
   rel="stylesheet"/>
