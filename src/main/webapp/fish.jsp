@@ -11,7 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" /> <!-- Replace with the actual path to your Tailwind CSS file -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="tailwind.config.js"></script>
-    <title>fish therapy</title>
+   <title>King Crab</title>
     
     <style>
     
