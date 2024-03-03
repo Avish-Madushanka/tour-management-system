@@ -383,32 +383,17 @@
             aria-expanded="false">
             &nbsp;Categories
         </div>
-        <div class="dropdown-menu" aria-labelledby="categories-dropdown-toggle">
-            <a class="dropdown-item" href="organicvege.jsp">Organic Vegetables </a>
-            <a class="dropdown-item" href="organicfruits.jsp">Organic Fruits</a>
-            <a class="dropdown-item" href="grocery.jsp">Grocery Items</a>
-            <a class="dropdown-item" href="Bakery.jsp">Bakery Items</a>
-            <a class="dropdown-item" href="SnacksandBiscuits.jsp">Biscuits & Snacks</a>
-            <a class="dropdown-item" href="Drinks.jsp">Beverages & Drinks</a>
-            <a class="dropdown-item" href="beauty.jsp">Beauty & Healthcare</a>
-        </div>
-    </div>
-        <a href="register.jsp">Signup</a>
-        <a href="Login.jsp">Login</a>
-    </div>
-	<div class="top-navbar">
-       
-    </div>
 
+   		 </div>
+    </div>
 	<!-- Starting Navigation Bar -->
 	<div class="second-navbar2">
         <div class="dropdown">
  	<div class="navlinks23">
         <a href="index.jsp" class="nav-link2">Home</a>
-        <a href="AllProducts.jsp" class="nav-link2">All Products</a>
-        <a href="orderDetails.jsp" class="nav-link2">Track Orders</a>
-        <a href="feedback.jsp" class="nav-link2">Contact Us</a>
-        <a href="teams.jsp" class="nav-link2">About Us</a>
+        <a href="allS.jsp" class="nav-link2">All Services</a>
+        <a href="about.jsp" class="nav-link2">About Us</a>
+        <a href="contactus.jsp" class="nav-link2">Contact Us</a>
         </div>
     </div>
     </div>

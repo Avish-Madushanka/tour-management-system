@@ -4,8 +4,6 @@
 <html lang="en">
 
 <head>
-
- <br><br>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/0.7.5/flowbite.min.css" rel="stylesheet">
@@ -331,27 +329,7 @@
 </head>
 
 <body>
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
-	  <div class="max-w-screen-xl flex items-center justify-center mx-auto p-4"> <!-- Modified this line -->
-	    <a href="{{< param homepage >}}/" class="flex items-center space-x-3 rtl:space-x-reverse">
-	        <img src="image/logo3.png" class="h-20" alt="Logo" />
-	    </a>
-	  </div>
-	</nav>
-	
-	<nav class="navbar">
-	  <div class="navbar-container">
-	    <div class="navbar-links">
-	      <a href="index.jsp">Home</a>
-	      <a href="allS.jsp">Services</a>
-	      <a href="about.jsp">About</a>
-	      <a href="contactus.jsp">Contact</a>
-	    </div>
-	    <div class="navbar-signin">
-	      <a href="#">Sign In</a>
-	    </div>
-	  </div>
-	</nav>
+ <%@ include file="header.jsp"%> 
     <div class="container" align="center">
         <div class="imgBx">
             <img src="image/curry.png?raw=true" alt="crab">
