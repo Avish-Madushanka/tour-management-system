@@ -6,7 +6,7 @@
 <%@ include file="header.jsp"%> 
 <meta charset="ISO-8859-1">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
-<title>Insert title here</title>
+<title>King Crab</title>
 
 </head>
 <br><br>
