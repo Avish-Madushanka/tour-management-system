@@ -75,7 +75,7 @@
         }
 
         .second-navbar2 .nav-link2:hover {
-            color: yellow; 
+            color: lightblue; 
         }
         .cart-icon {
             margin-right: 20px;
@@ -134,39 +134,9 @@
 	    display: inline-block;
 	    margin-left:35px;
 	}
-		.dropdown-menu {
-		    background-color: #FEDE00 !important; /* Set the background color for the entire dropdown */
-		    border-radius: 25px; /* Adjust the border-radius for oval shape */
-		    width: 180px;
-		    position: absolute;
-		    padding: 20px 0;
-		    position: absolute;
-		    top: 100%;
-		    left: 0;
-		    display: none;
-	}
-
-		.dropdown-item {
-		    color: black;
-		    padding: 25px 15px;
-		    transition: color 0.3s;
-		    font-size:16px;
-		    margin-left: 5px;
-		   margin-right: 20px;
-		    margin-bottom:10px;
-		    border-radius: 10px; 
-		}
-
-			.dropdown-item:hover {
-			    background-color: transparent !important; 
-			    color: #04A702 !important; 
-			    text-decoration: none;
-			}
+		
 
 
-		.dropdown:hover .dropdown-menu {
-		    display: block;
-		}
 
 
     @media (max-width: 768px) {
