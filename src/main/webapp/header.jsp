@@ -34,20 +34,20 @@
             padding: 0;
             font-family: 'Amaranth', sans-serif;
             display: flex;
-    flex-direction: column;
+    		flex-direction: column;
         }
         .mainnav
-{
-    max-width: 100%; /* Adjust as needed */
-}
-        .carousel-container{
+		{
+		    max-width: 100%; /* Adjust as needed */
+		}
+		        .carousel-container{
                 z-index: 3;
         }
 
         
         
         .second-navbar2 {
-            background-color: #04A702;
+            background-color: #2a4365;
             padding: 10px 60px;
             display: flex;
             z-index: 2;
@@ -67,7 +67,7 @@
         .navlinks23 {
             
             padding-top: 5px;
-            margin-left: 180px;
+            margin-left: 600px;
             font-size: 20px;
         }
         .wrap{
