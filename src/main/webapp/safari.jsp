@@ -3,14 +3,13 @@
 		<!DOCTYPE html>
 		<html>
 		<head>
-		<%@ include file="header.jsp"%> 
+		<title>King Crab</title> 
 		<meta charset="ISO-8859-1">
-		<title>King Crab</title>
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />  
 		</head>
 		<body>
 		
-		
+		<%@ include file="header.jsp"%> 
 		
 		<div id="default-carousel" class="relative w-full" data-carousel="slide">
 		    <!-- Carousel wrapper -->
