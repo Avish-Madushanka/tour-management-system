@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>King Crab</title>
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
   rel="stylesheet"/>
@@ -42,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full h-64 mt-8 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:mt-0 md:w-1/2" style="background-image: url('image/cate1.jpg')">
+                <div class="w-full h-64 mt-8 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:mt-0 md:w-1/2" style="background-image: url('himage/cate1.jpg')">
                     <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
                         <div class="px-10 max-w-xl">
                             <h2 class="text-2xl text-white font-semibold">Games</h2>
