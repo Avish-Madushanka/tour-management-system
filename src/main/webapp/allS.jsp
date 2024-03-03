@@ -8,132 +8,101 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
 <title>Insert title here</title>
 
-<style>
-.image-item {
-    object-fit: cover;
-    object-position: center;
-    max-width: 100%;
-    height: 100%;
-    padding: 10px; 
-    margin-left: 30px;
-    margin-right: 40px;
-    /* Optional: Add rounded corners */
-}
-
-
-</style>
 </head>
 <br><br>
 <body>
 
 
-
-<!-- component -->
-<!-- This is an example component -->
-<div class="flex flex-col items-center md:flex-row justify-center mx-auto mt-8">
-    <div class="w-80 h-80 bg-white border border-gray-200 rounded-lg shadow bg-gray-800 dark:border-gray-700 mb-4 md:mb-0">
-        <a href="#">
-            <img class="rounded-t-lg w-80 h-48" src="image/home3.jpg"  alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Accomodation</h5>
-            </a>
-            <a href="room.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-400 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-500 dark:bg-green-200 dark:hover:bg-green-700 dark: focus:ring-green-800">
+<div class="mt-16">
+                <h1 class="text-gray-600 text-6xl font-medium"><center>Our Services</center></h1>
+                <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate8.jpg')">
+                            
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Accommodation</h3>
+				             <a href="room.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-900 								dark:bg-blue-900 dark:hover:bg-blue-900 dark:focus:ring-blue-900">
+				    Explore Now
+				    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+				        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+				    </svg>
+				</a>
+				     </div>
+                        
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate9.jpg')">
+                            
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Food</h3>
+                            <a href="foods.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-900 								dark:bg-blue-900 dark:hover:bg-blue-900 dark:focus:ring-blue-900">
                 Explore Now
                 <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
             </a>
-        </div>
-    </div>
-
-    <div class="w-80 h-80 bg-white border border-gray-200 rounded-lg shadow bg-gray-800 dark:border-gray-700 mb-4 lg:ml-12 md:mb-0">
-        <a href="#">
-            <img class="rounded-t-lg w-80 h-48" src="image/cate2.jpg"  alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Foods</h5>
-            </a>
-            <a href="foods.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-400 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-500 dark:bg-green-200 dark:hover:bg-green-700 dark:focus:ring-green-800">
-                Explore Now
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                         <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate1.jpg')">
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Fish Therapy</h3>
+                           <a href="fish.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-900 								dark:bg-blue-900 dark:hover:bg-blue-900 dark:focus:ring-blue-900">
+                		Explore Now
                 <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
             </a>
-        </div>
-    </div>
-    <div class="w-80 h-80 bg-white border border-gray-200 rounded-lg shadow bg-gray-800 dark:border-gray-700 mb-4 lg:ml-12 md:mb-0">
-        <a href="#">
-            <img class="rounded-t-lg w-80 h-48" src="image/home1.jpg"  alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Fish Therapy</h5>
-            </a>
-            <a href="fish.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-400 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-500 dark:bg-green-200 dark:hover:bg-green-700 dark:focus:ring-green-800">
-                Explore Now
-                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            
-            </svg>
-            </a>
-        </div>
-    </div>
-    
-    </div>
-    <div class="flex flex-col items-center md:flex-row justify-center mx-auto mt-12">
-    <div class="w-80 h-80 bg-white border border-gray-200 rounded-lg shadow bg-gray-800 dark:border-gray-700 mb-4 md:mb-0">
-        <a href="#">
-            <img class="rounded-t-lg w-80 h-48" src="image/cate3.jpg"  alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Safari</h5>
-            </a> 
-           <a href="safari.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-400 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-500 dark:bg-green-200 dark:hover:bg-green-700 dark:focus:ring-green-800">
-                Explore Now
-                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
-        </div>
-    </div>
-    <div class="w-80 h-80 bg-white border border-gray-200 rounded-lg shadow bg-gray-800 dark:border-gray-700 mb-4 lg:ml-12 md:mb-0">
-        <a href="#">
-            <img class="rounded-t-lg w-80 h-48" src="image/cate4.jpg"  alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Boat Safari</h5>
-            </a>
-            <a href="boat.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-400 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-500 dark:bg-green-200 dark:hover:bg-green-700 dark:focus:ring-green-800">
-                Explore Now
-                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
-        </div>
-    </div>
-    <div class="w-80 h-80 bg-white border border-gray-200 rounded-lg shadow bg-gray-800 dark:border-gray-700 mb-4 lg:ml-12 md:mb-0">
-        <a href="#">
-            <img class="rounded-t-lg w-80 h-48" src="image/cate6.jpg"  alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Outdoor Activities</h5>
-            </a>
-            <a href=".jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-400 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-500 dark:bg-green-200 dark:hover:bg-green-700 dark:focus:ring-green-800">
-                Explore Now
-                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
-        </div>
-    </div>
-    
-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16">
+                <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                         <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate3.jpg')">
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Safari</h3>
+			                     <a href="safari.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-900 focus:ring-4 focus:outline-none 								focus:ring-blue-900dark:bg-blue-900 dark:hover:bg-blue-900 dark:focus:ring-blue-900">
+			                Explore Now
+			                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+			                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+			                </svg>
+			            </a>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                         <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate7.jpg')">
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Boat Safari</h3>
+			                           <a href="boat.jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-900 focus:ring-4 focus:outline-none 										focus:ring-blue-900 dark:bg-blue-900 dark:hover:bg-blue-900 dark:focus:ring-blue-900">
+			                Explore Now
+			                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+			                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+			                </svg>
+			            </a>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                         <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('image/cate6.jpg')">
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Outdoor Activities</h3>
+			                   <a href=".jsp" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-900 								dark:bg-blue-900 dark:hover:bg-blue-900 dark:focus:ring-blue-900">
+			                Explore Now
+			                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+			                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+			                </svg>
+			            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 </body>
