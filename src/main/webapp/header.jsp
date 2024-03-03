@@ -44,73 +44,6 @@
                 z-index: 3;
         }
 
-        .top-navbar {
-            background-color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            z-index: 1;
-        }
-        .top-navbar-right {
-            display: flex;
-            align-items: center;
-        }
-        .top-navbar a {
-            margin-right: 20px;
-            text-decoration: none;
-            color: black;
-            transition: color 0.3s; /* Smooth transition for the underline effect */
-        }
-
-        .top-navbar a:hover {
-          color: #04A702; 
-          text-decoration: none;
-        }
-        .cart-total {
-            font-size: 18px;
-            margin-left: 5px;
-        }
-
-        .logo {
-            width: 200px;
-            height: 45px;
-        }
-
-        .search-bar {
-        width: 400px;
-    border: 1px solid grey; /* Add this line to set the border color */
-    background-color: transparent;
-    font-size: 16px;
-    outline: none;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding-left: 10px;
-    height:35px;
-    }
-
-    .btn5 {
-        width: 100px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        font-size: 16px;
-        background-color: #FEDE00;
-        border-color: #FEDE00;
-        height: 35px;
-    }
-        .top-navbar-right {
-            display: flex;
-            align-items: center;
-            font-size: 20px;
-        }
-
-        .top-navbar-right a {
-            margin-right: 20px;
-            text-decoration: none;
-            color: black;
-        }
-
         
         
         .second-navbar2 {
@@ -375,14 +308,9 @@
 	</nav>
     <div class="hamburger-menu-links">
         <a href="index.jsp">Home</a>
-        <a href="AllProducts.jsp">All Products</a>
-        <a href="teams.jsp">About Us</a>
-        <a href="feedback.jsp">Contact Us</a>
-        <div class="dropdown">
-        <div class="dropdown-toggle" id="categories-dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            &nbsp;Categories
-        </div>
+        <a href="allS.jsp">All Services</a>
+        <a href="about.jsp">About Us</a>
+        <a href="contactus.jsp">Contact Us</a>
 
    		 </div>
     </div>
