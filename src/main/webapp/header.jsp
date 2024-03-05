@@ -67,7 +67,7 @@
         .navlinks23 {
             
             padding-top: 5px;
-            margin-left: 50%;
+            margin-left: 50;
             font-size: 20px;
         }
         .wrap{
