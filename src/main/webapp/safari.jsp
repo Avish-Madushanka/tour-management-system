@@ -7,7 +7,213 @@
 		<meta charset="ISO-8859-1">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />  
 		</head>
-	
+		<style>
+				$maxWidth: 960px;
+				$minTablet: 767px;
+				
+				@mixin media($size) {
+					@if $size == 'tabletUpwards' {@media screen and ( min-width : $minTablet ) { @content; }}
+				}
+				
+				body {
+					position: relative;
+					background-color: #DDDDDD;
+					font-family: 'helvetica', sans-serif;
+					font-weight: lighter;
+					font-size: 14px;
+					color: #555;
+					margin: 0;
+					padding: 0;
+					min-width: 320px;
+				}
+				
+				h1 {
+					text-transform: uppercase;
+					color: #333;
+				}
+				
+				h3 {
+					font-weight: lighter;
+					color: #555555;
+				}
+				
+				a {
+					position: relative;
+					color: #a8244f;
+					text-decoration: none;
+					&:before {
+						content: "";
+						height: 2px;
+						position: absolute;
+						bottom: -5px;
+						left: 0;
+						right: 0;
+						background-color: darken(#a8244f, 10%);
+						transform: rotateY(90deg);
+						transition: transform 0.2s ease-in-out;
+					}
+					&:hover {
+						color: darken(#a8244f, 10%);
+						text-decoration: none;
+						&:before {
+							transform: rotateY(0deg);
+						}
+					}
+				}
+				
+				.split {
+					display: flex;
+					flex-direction: row;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					align-items: strech;
+					p {
+						flex-basis: 100%;
+						@include media('tabletUpwards') {
+							flex-basis: 48%;
+						}
+					}
+				}
+				
+				nav.social {
+					display: inline-block;
+					padding: 0;
+					margin-bottom: 18px;
+					li {
+						list-style: none;
+						float: left;
+						a {
+							padding: 5px;
+						}
+						&:first-child a {
+							padding-left: 0;
+						}
+					}
+				}
+				
+				.container {
+					position: relative;
+					width: 100%;
+					margin: 50px 0;
+					.inner {
+						position: relative;
+						width: 100%;
+						max-width: $maxWidth;
+						margin: 0 auto;
+						overflow: hidden;
+						box-sizing: border-box;
+						padding: 20px 30px;
+						background-color: #EEE;
+					}
+				}
+				
+				.comparison-slider-wrapper {
+					position: relative;
+					width: 100%;
+					margin: 20px 0;
+					background-color: white;
+				
+					.comparison-slider {
+						position: relative;
+						width: 100%;
+						margin: 0;
+						border: 5px white solid;
+						box-sizing: border-box;
+						> img {
+							width: 100%;
+							height: auto;
+							display: block;
+						}
+
+		.overlay {
+			display: none;
+			position: absolute;
+			width: 250px;
+			bottom: 20px;
+			right: 20px;
+			background-color: rgba(0, 0, 0, 0.4);
+			padding: 10px;
+			box-sizing: border-box;
+			color: #DDD;
+			text-align: right;
+			@include media('tabletUpwards') {
+				display: block;
+			}
+		}
+
+		.resize {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 50%;
+			overflow: hidden;
+			> img {
+				display: block;
+			}
+			.overlay {
+				right: auto;
+				left: 20px;
+				text-align: left;
+			}
+		}
+
+		.divider {
+			position: absolute;
+			width: 2px;
+			height: 100%;
+			background-color: rgba(256, 256, 256, 0.2);
+			left: 50%;
+			top: 0;
+			bottom: 0;
+			margin-left: -1px;
+			cursor: ew-resize;
+			&:before {
+				content: "";
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				left: -9px;
+				top: 50%;
+				margin-top: -10px;
+				background-color: white;
+				transform: rotate(45deg);
+				transition: all 0.1s ease-in-out;
+			}
+			&:after {
+				content: "";
+				position: absolute;
+				width: 12px;
+				height: 12px;
+				left: -5px;
+				top: 50%;
+				margin-top: -6px;
+				background-color: white;
+				transform: rotate(45deg);
+				transition: all 0.1s ease-in-out;
+			}
+			&.draggable{
+				&:before {
+					width: 30px;
+					height: 30px;
+					left: -14px;
+					margin-top: -15px;
+				}
+				&:after {
+					width: 20px;
+					height: 20px;
+					left: -9px;
+					margin-top: -10px;
+					background-color: #555;
+				}
+			}
+		}
+	}
+
+}
+
+}
+		</style>
 		<body>
 		
 		<%@ include file="header.jsp"%> 
