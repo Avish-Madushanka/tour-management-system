@@ -7,6 +7,7 @@
 		<meta charset="ISO-8859-1">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />  
 		</head>
+	
 		<body>
 		
 		<%@ include file="header.jsp"%> 
@@ -209,6 +210,25 @@
 	    </div>
 		</section>
 		
+		
+		<div class="container">
+ <div class="inner">
+	 
+	 
+	 <div class="comparison-slider-wrapper">
+	 	<div class="comparison-slider">
+		 <img src="https://raw.githubusercontent.com/Mario-Duarte/CodePen/main/assets/marioPhoto-2.jpg" alt="marioPhoto 2">
+		 <div class="resize">
+			<img src="https://raw.githubusercontent.com/Mario-Duarte/CodePen/main/assets/marioPhoto-1.jpg" alt="marioPhoto 1">
+		 </div>
+		 <div class="divider"></div>
+		</div>
+	 </div>
+
+	 
+	 
+</div>
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 		</body>
 		</html>
