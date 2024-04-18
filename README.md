@@ -15,7 +15,7 @@
   <ol>
     <li>JAVA</li>
   </ol>
-  <li>IDE</li>
+  <li></li>
   <ol>Eclipse</ol>
   <li>Current Status</li>
   <ol>Ongoing</ol>
