@@ -4,6 +4,8 @@
 <h3>Your Tour Management Guide⛵</h3>
 
 <p>This is a Tour Management Web Application developed targeting both local and foreign tourists</p>
+
+<p> status:ongoing </p>
 <p><b>Languages</b></p>
 <ul>
   <li>Front-End</li>
